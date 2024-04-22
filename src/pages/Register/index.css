@@ -1,0 +1,35 @@
+:where(.css-dev-only-do-not-override-1xg9z9n).ant-col-16 {
+  max-width: 100%;
+}
+.reg_main {
+  padding-top: 30px;
+}
+.r_text {
+  padding: 10px 0;
+  color: #777;
+  font-size: 11px;
+}
+.r_btn {
+  background-color: #939598;
+  padding: 0 4em;
+  font-weight: 600;
+  font-size: 18px;
+  height: 36px;
+}
+.r_btn:hover {
+  /* background: linear-gradient(#79bc64, #578843) !important; */
+  background-color: #af1e23 !important;
+}
+.re_btn {
+  background-color: #939598;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  height: 48px;
+  padding: 0 16px;
+  font-weight: bold;
+}
+.re_btn:hover {
+  background-color: #af1e23 !important;
+  border-color: #af1e23 !important;
+}
