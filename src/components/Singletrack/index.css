@@ -1,0 +1,15 @@
+.main_single {
+  background-color: white;
+  padding: 3em 10px;
+  border-radius: 10px;
+}
+.main_single img {
+  border-radius: 10px;
+}
+.tracking_h {
+  text-transform: capitalize;
+}
+.tracking_d {
+  text-transform: capitalize;
+  padding: 10px 0;
+}

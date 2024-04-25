@@ -7,6 +7,7 @@ import { store } from "./redux/store";
 import Layout from "./components/Layout";
 import LiveTracking from "./components/LiveTrracking/index.js";
 import Dashboard from "./components/Dashboard/index.js";
+import SingleTracking from "./components/Singletrack/index.js";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/LiveTracking",
         element: <LiveTracking />,
+      },
+      {
+        path: "/tacking/:id",
+        element: <SingleTracking />,
       },
     ],
   },

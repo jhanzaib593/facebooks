@@ -21,7 +21,6 @@ const Home = () => {
   const [trackData, setTrackData] = useState();
   const [open, setOpen] = useState(false);
   const dispatch = useDispatch();
-
   const handleOpenChange = (newOpen) => {
     setOpen(newOpen);
   };
@@ -92,7 +91,12 @@ const Home = () => {
               trackData.map((blog, ind) => (
                 // <h1 key={ind}>{blog?.title}</h1>
                 <Menu.Item key={ind}>
-                  <Link to={`/${blog?.title}`}>{blog?.title}</Link>
+                  <Link
+                    style={{ textTransform: "capitalize" }}
+                    to={`/tacking/${blog?._id}`}
+                  >
+                    {blog?.title}
+                  </Link>
                 </Menu.Item>
               ))}
           </Menu.SubMenu>
