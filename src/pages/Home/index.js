@@ -30,10 +30,14 @@ const Home = () => {
 
   //get blogs
   const getAllTrackData = async () => {
+    const id = localStorage.getItem("soical_user");
     try {
-      const { data } = await axios.get(`${BASE_URL}/api/tracking/all-tracking`);
+      const { data } = await axios.get(
+        `${BASE_URL}/api/tracking/user-track/${id}`
+      );
+
       if (data?.success) {
-        setTrackData(data.track);
+        setTrackData(data.usertrack.trackdata);
       }
     } catch (error) {
       console.log(error);
