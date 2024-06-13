@@ -23,12 +23,9 @@ Row {
 .icon {
   font-size: 4em;
 }
-:where(.css-1xg9z9n).ant-row {
-    display: flex;
-    flex-flow: row wrap;
+.main-row {
     gap: 13px !important;;
-    min-width: 0;
-}
+    }
 :where(.css-dev-only-do-not-override-1xg9z9n).ant-row {
   justify-content: space-evenly;
 }
