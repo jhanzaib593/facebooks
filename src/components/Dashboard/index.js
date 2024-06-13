@@ -13,7 +13,7 @@ export default function BasicSparkLineCustomization() {
   return (
     <>
       <div className="main">
-        <Row>
+        <Row className="main-row">
           <Col sm={12} md={11} lg={5} className="count">
             <div>
               <h3>Sale</h3>
